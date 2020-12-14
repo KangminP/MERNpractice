@@ -1,0 +1,51 @@
+.homelayout {
+    padding: 0 14vw 0 14vw;
+    width: 100%;
+}
+
+.header-container {
+    width: 100%;
+    margin: 4vmax 0 4vmax 0;
+    padding: 0 16px;
+}
+
+.header-image {
+    margin-bottom: 4vmax;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .main-image-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-image {
+        display: none;
+    }
+
+    .main-image-sm {
+        padding: 2vmax;
+    }
+}
+
+.header-search-create {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-container {
+    width: 100%;
+}
+
+/* ////////////////////////////////////////// */
+/* GetAllArticles */
+
+.card-col {
+    /* height: 200px; */
+    margin-bottom: 60px;
+}
