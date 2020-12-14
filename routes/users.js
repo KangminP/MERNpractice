@@ -71,9 +71,9 @@ router.post("/signup", (req, res, next) => {
 });
 
 router.route("/alluser").get(authorize, (req, res) => {
-    User.find((err, response) => {
-        if (err) {
-            return next(err);
+    User.find((error, response) => {
+        if (error) {
+            return next(error);
         } else {
             res.status(200).json(response);
         }
